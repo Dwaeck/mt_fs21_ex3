@@ -14,8 +14,8 @@ This repo shows how to train neural language models using [Pytorch example code]
 
 Clone this repository in the desired place:
 
-    git clone https://github.com/lucasseiler/pytorch-rnn-lm
-    cd pytorch-rnn-lm
+    git clone https://github.com/Dwaeck/mt_fs21_ex3
+    cd mt_fs21_ex3
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
 
