@@ -28,15 +28,18 @@ Download and install required software:
     ./scripts/install_packages.sh
 
 Download and preprocess data:
+For this task, I've chosen a text of Charles Dickens. The link in download_data.sh has been changed.
 
     ./scripts/download_data.sh
     
 Train a model:
+This model will use the text of Charles Dickens to train a new model called model_new.pt. An additional folder for the texts will be created, called new.
 
     ./scripts/train.sh
 
 The training process can be interrupted at any time, and the best checkpoint will always be saved.
 
 Generate (sample) some text from the trained model with:
+The script now works with model_new.pt rather than model.pt. It also contains an --input command.
 
     ./scripts/generate.sh
