@@ -15,7 +15,7 @@ num_threads=4
 device=""
 
 (cd $examples/word_language_model &&
-    CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python3 generate.py --input "Some time ago, I used to believe in the history of our people. The history, we were told by our elders." \
+    CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python3 generate.py --input "Some time ago, I used to believe in the history of our people. The history, which we were told by our elders." \
         --data $data/new \
         --words 100 \
         --checkpoint $models/model_new.pt \
