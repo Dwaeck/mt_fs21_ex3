@@ -30,13 +30,13 @@ Download and install required software:
 Download and preprocess data:
 
     ./scripts/download_data.sh
-
+    
 Train a model:
 
     ./scripts/train.sh
 
 The training process can be interrupted at any time, and the best checkpoint will always be saved.
 
-Generate (sample) some text from a trained model with:
+Generate (sample) some text from the trained model with:
 
     ./scripts/generate.sh
